@@ -1,4 +1,6 @@
 #include <stdio.h>
+/*OLWASI LINDA
+ENE212-0146/2021 */
 
 int main() {
     FILE *inputFile, *outputFile;
@@ -7,7 +9,7 @@ int main() {
    
     printf("Enter some text: ");
     fgets(buffer, sizeof(buffer), stdin);
-    inputFile = fopen("C:\\Users\\kidsa\\Searches\\dsac\\ICS2371\\input.txt", "a"); 
+    inputFile = fopen("C:\\Users\\OLWASI LINDA\\Desktop\\input.txt", "a"); 
     if (inputFile == NULL) {
         printf("Error creating input.txt\n");
         return 1;
@@ -23,7 +25,7 @@ int main() {
     }
 
    
-    outputFile = fopen("C:\\Users\\kidsa\\Searches\\dsac\\ICS2371\\output.txt", "a"); // Changed mode to "a" for append
+    outputFile = fopen("C:\\Users\\LINDA OLWASI\\Desktop\\output.txt", "a"); // Changed mode to "a" for append
     if (outputFile == NULL) {
         printf("Error creating/output.txt\n");
         fclose(inputFile);
