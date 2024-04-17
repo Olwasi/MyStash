@@ -3,6 +3,7 @@
 #include <string.h>
 
 #define MAX_LENGTH 50
+/*OLWASI LINDA ENE212-0146/2021*/
 
 
 typedef struct {
