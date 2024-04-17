@@ -30,15 +30,15 @@ int main() {
                 result = divide(num1, num2);
             } else {
                 printf("Error: Division by zero is not allowed.\n");
-                return 1; // Exit 
+                return 1; 
             }
             break;
         default:
             printf("Error: Invalid operator.\n");
-            return 1; // Exit 
+            return 1; 
     }
     printf("Result: %.2f\n", result);
-    return 0; // successful Exit 
+    return 0;  
 }
 double add(double num1, double num2) {
     return num1 + num2;
