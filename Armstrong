@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+//OLWASI LINDA ENE212-0146/2021
 
 int isArmstrong(int n) {
     int originalNumber = n;
