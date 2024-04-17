@@ -1,4 +1,6 @@
 #include <stdio.h>
+//OLWASI LINDA ENE212-0146/2021
+
 void generateFibonacci(int n);
 int main() {
     int n;
@@ -8,7 +10,7 @@ int main() {
 
     generateFibonacci(n);
 
-    return 0; // Exit 
+    return 0; 
 }
 void generateFibonacci(int n) {
     int first = 0, second = 1, next;
